@@ -2,5 +2,29 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int n = Integer.parseInt(args[0]);
+		int a= 0;
+		int b = 0;
+		while (n>0){
+			double m = Math.random();
+			if ( m <= 0.5) {
+				a = a + 1;
+				n = n - 1;
+			}
+			else  if ( m > 0.5) {
+				b = b + 1;
+				n = n - 1;
+			}
+		}
+			double c = Math.min(a, b);
+			double d = Math.max(a, b);
+			double r =  c / d ;
+			System.out.println("> 0.5:" + b + "times");
+			System.out.println("<= 0.5:" + a + "times");
+			System.out.println("Ratio:" + r);
+
+
+
+		
 	}
 }
