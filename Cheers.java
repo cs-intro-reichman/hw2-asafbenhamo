@@ -44,6 +44,7 @@ public class Cheers {
             
             System.out.println("What does that spell?");
             while (num>0) {
+                a = a.toUpperCase();
                 System.out.println(a + "!!!");
                 num = num - 1;   
             }
