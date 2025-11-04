@@ -21,7 +21,7 @@ public class Cheers {
                         char c = a.charAt(a.length()- b);
                         c = Character.toUpperCase(c);
                         if ((c == 'A') || (c =='E') || (c =='F') || (c =='H') || (c =='I') || (c =='L') || (c =='M')
-                        || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
+                        || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='X')) {
                          System.out.println("Give me an " + c + ": " + c + "!");
                         }
                         else System.out.println("Give me a  " + c + ": " + c + "!");
