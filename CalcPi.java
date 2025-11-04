@@ -11,7 +11,7 @@ public class CalcPi {
 		s = s - o * (1.0 / d);
 		d = d +2.0;
 		o = o * -1 ;
-		num = num - 2;
+		num = num - 1;
 		}
 		s = s * 4.0;
 		 System.out.println("pi according to Java: " + p);
