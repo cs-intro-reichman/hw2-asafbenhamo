@@ -6,6 +6,7 @@ public class Collatz {
 		 String a = args[1];
 		 if (a.equals("C")== true) {
 			System.out.println( "Every one of the first " + num + " hailstone sequences reached 1.");
+			return ;
 		 }
 		else if (a.equals("V") == true)
 		 {
