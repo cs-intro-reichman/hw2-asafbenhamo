@@ -13,6 +13,9 @@ public class Cheers {
             String a = args [0];
             int num = Integer.parseInt(args[1]);
             int b =  (int) a.length();
+            if (b==1){
+             System.out.println(a.indexOf(a));   
+            }
             while ( b>0) {
                  {
                         char c = a.charAt(a.length()- b); 
