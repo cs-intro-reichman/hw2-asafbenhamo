@@ -13,7 +13,7 @@ public class Cheers {
             String a = args [0];
             int num = Integer.parseInt(args[1]);
             int b =  (int) a.length();
-            while ( b>1) {
+            while ( b>0) {
                  {
                         char c = a.charAt(a.length()- b); 
                 System.out.println("Give ma an " + c + ": " + c + "!");
