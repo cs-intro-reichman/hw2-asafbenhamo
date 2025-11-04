@@ -30,7 +30,7 @@ public class Collatz {
 				}
 				y++;
 			}
-			s = s + "1 (" + y +1 + ")" ;
+			s = s + "1 (" + (y +1) + ")" ;
 			System.out.println(s);
 
 			}
