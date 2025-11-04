@@ -11,16 +11,16 @@ public class TimeCalc {
         int newh = totalh % 24;
         int newm = (int) totalm - ( totalh * 60);
         if (( newm < 10) && (newh < 10)){
-            System.err.println("0" + newh + ":" + "0" + newm);
+            System.out.println("0" + newh + ":" + "0" + newm);
         }
         else if (newm < 10) {
-            System.err.println( + newh + ":" + "0" + newm);
+            System.out.println( + newh + ":" + "0" + newm);
         }
         else if ( newh < 10) {
-            System.err.println("0" + newh + ":"  + newm);
+            System.out.println("0" + newh + ":"  + newm);
 
         }
-       else System.err.println( newh + ":" + newm);
+       else System.out.println( newh + ":" + newm);
 
     }
 
