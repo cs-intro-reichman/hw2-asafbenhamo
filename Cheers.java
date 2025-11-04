@@ -23,7 +23,7 @@ public class Cheers {
                         || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
                          System.out.println("Give me an " + c + ": " + c + "!");
                         }
-                        else System.out.println("Give me a " + c + ": " + c + "!");
+                        else System.out.println("Give mec a " + c + ": " + c + "!");
                         b = b - 1 ;
                         
                 }
@@ -40,7 +40,7 @@ public class Cheers {
                 }
                 
             
-            System.out.println("What does it spell?");
+            System.out.println("What does that spell?");
             while (num>0) {
                 System.out.println(a + "!!!");
                 num = num - 1;   
