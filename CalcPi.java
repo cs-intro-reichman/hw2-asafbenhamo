@@ -7,12 +7,15 @@ public class CalcPi {
 		double s = 1.0;
 		double d = 3.0;
 		while (num>0) {
+			if (num == 1){
+				s = s - (1.0 / d);
+			}
 		s = s - (1.0 / d);
 		d = d +2.0;
 		s = s +(1.0 / d);
 		d = d + 2.0 ;
 
-		num = num - 1;
+		num = num - 2;
 		}
 		s = s * 4.0;
 		 System.out.println("pi according to Java: " + p);
