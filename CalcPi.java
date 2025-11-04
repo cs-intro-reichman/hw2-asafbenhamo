@@ -4,11 +4,11 @@ public class CalcPi {
 	    // Replace this comment with your code
 		int num = Integer.parseInt(args[0]);
 		double p = Math.PI;
-		double s = 1.0;
-		double d = 3.0;
+		double s = 0.0;
+		double d = 1.0;
 		int o = 1;
 		while (num>0) {
-		s = s - o * (1.0 / d);
+		s = s + o * (1.0 / d);
 		d = d +2.0;
 		o = o * -1 ;
 		num = num - 1;
