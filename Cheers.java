@@ -14,19 +14,29 @@ public class Cheers {
             int num = Integer.parseInt(args[1]);
             int b =  (int) a.length();
             if (b==1){
-             System.out.println(a.indexOf(a));   
+             
             }
             while ( b>0) {
                  {
-                        char c = a.charAt(a.length()- b); 
-                System.out.println("Give ma an " + c + ": " + c + "!");
-                 b = b - 1 ;
+                        char c = a.charAt(a.length()- b);
+                        if ((c == 'A') || (c =='E') || (c =='F') || (c =='H') || (c =='I') || (c =='L') || (c =='M')
+                        || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
+                         System.out.println("Give ma an " + c + ": " + c + "!");
+                        }
+                        else System.out.println("Give ma a " + c + ": " + c + "!");
+                        b = b - 1 ;
+                        
                 }
                 
                 }
                 if (b==1){
-                        char c = a.charAt(a.length()- 1);
-                System.out.println("Give ma an " + c + ": " + c + "!");
+                        char c = a.charAt(a.length()- b);
+                        if ((c == 'A') || (c =='E') || (c =='F') || (c =='H') || (c =='I') || (c =='L') || (c =='M')
+                        || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
+                         System.out.println("Give ma an " + c + ": " + c + "!");
+                        }
+                        else System.out.println("Give ma a " + c + ": " + c + "!");
+                        b = b - 1 ;
                 }
                 
             
