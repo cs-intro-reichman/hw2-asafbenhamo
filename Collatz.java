@@ -16,7 +16,7 @@ public class Collatz {
 				
 			}
 			else if (i>1) {
-				 int f = i ;
+				 long f = i ;
                  int y = 0;
 				 String s = "";
 					while (f!=1) {
@@ -29,7 +29,7 @@ public class Collatz {
 				}
 				y++;
 			}
-			s = s + "1 (" + y + ")" ;
+			s = s + "1 (" + y +1 + ")" ;
 			System.out.println(s);
 
 			}
