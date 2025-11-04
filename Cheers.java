@@ -23,7 +23,7 @@ public class Cheers {
                         || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
                          System.out.println("Give me an " + c + ": " + c + "!");
                         }
-                        else System.out.println("Give me a " + c + ": " + c + "!");
+                        else System.out.println("Give me a  " + c + ": " + c + "!");
                         b = b - 1 ;
                         
                 }
@@ -35,7 +35,7 @@ public class Cheers {
                         || (c =='N') || (c =='O') || (c =='R') || (c =='S') || (c =='R')) {
                          System.out.println("Give me an " + c + ": " + c + "!");
                         }
-                        else System.out.println("Give me a " + c + ": " + c + "!");
+                        else System.out.println("Give me a  " + c + ": " + c + "!");
                         b = b - 1 ;
                 }
                 
