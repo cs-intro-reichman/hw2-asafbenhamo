@@ -4,11 +4,11 @@ public class Collatz {
 	    // Replace this comment with your code
 		int num = Integer.parseInt(args[0]);
 		 String a = args[1];
-		 if (a.equals("C")== true) {
+		 if (a.equals("c")== true) {
 			System.out.println( "Every one of the first " + num + " hailstone sequences reached 1.");
 			return ;
 		 }
-		else if (a.equals("V") == true)
+		else if (a.equals("v") == true)
 		 {
 			int i = 1;
 			while (i <= num){
